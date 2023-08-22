@@ -1,0 +1,55 @@
+
+
+//social login button(google)
+
+
+
+// import React, { Component } from 'react'
+// import{GoogleLoginButton} from 'react-social-login-buttons';
+// import{LoginSocialGoogle} from 'reactjs-social-login';
+
+// export default class App extends Component {  
+//   render() {
+//     return (
+//       <div>
+//       <LoginSocialGoogle
+//       client_id='16214647514-gqv27cjquc49qrsvlnu8ffk8cr021kk9.apps.googleusercontent.com'
+//       discoveryDocs="claims_supported"
+//       access_type="offline"
+//       onResolve={({provider,data}) =>{
+//         console.log(provider,data);
+//       }}
+//       onReject={({error})=>{
+//       console.log(error);
+//       }}
+//       >
+//         <GoogleLoginButton style={{width:'15%'}}/>
+//       </LoginSocialGoogle>
+//           </div> 
+//     )
+//   }
+// }
+//.........................................................................................................
+////admin pannel
+
+// import React, { Component } from 'react'
+
+// export default class extends Component {
+//   render() {
+//     return (
+//       <div style={{display:'flex'}}>
+//       <div style={{borderRight:'2px solid #E2E8F0',width:'20%',height:'90vh'}}>
+//    <div style={{width:'100%'}}> <hr style={{ marginTop:50,color:'#E5E7EB',width:'500%'}}/>
+//     <button style={{marginLeft:'40%',fontSize:'1.1em',borderRadius:7,width:'7%',height:'5vh',border:'none',background:'none',textAlign:'center'}}>User's</button>
+// <hr style={{color:'#E2E8F0',width:'500%'}}/>
+// </div>
+//       </div>
+//       <div style={{}}>
+//   <img style={{marginLeft:'7%',marginTop:150}} src={require('./Ellipse54.png')} alt=''/>
+// </div>
+//       </div>
+     
+//     )
+//   }
+// }
+//.............................................................................................................................
